@@ -45,7 +45,7 @@ export default function Card() {
 
     // Create a new user object
     const addedUser = {
-      id: users.length + 1, // Fake ID for UI purposes
+      id: users.length + 1, 
       name: newUser.name,
       email: newUser.email,
       address: { city: newUser.city }, // Match the existing user structure
