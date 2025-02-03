@@ -10,9 +10,9 @@ function binary_search(arr, target) {
         }
 
         if (arr[mid] < target) {   // If the middle element is smaller than target
-            low = mid + 1;         // Move the low pointer to the right (search the upper half)
+            low = mid + 1;         // Move the low pointer to the right
         } else {                   // If the middle element is greater than target
-            high = mid - 1;        // Move the high pointer to the left (search the lower half)
+            high = mid - 1;        // Move the high pointer to the left 
         }
     }
 
@@ -22,7 +22,7 @@ function binary_search(arr, target) {
 // Define an array
 const array = [1, 2, 3, 4, 5, 6, 7, 8, 10, 9];
 
-// Sort the array before applying binary search (Binary search requires a sorted array)
+// Sort the array 
 const sorted_array = array.sort((a, b) => a - b);
 console.log("Sorted Array:", sorted_array);
 
